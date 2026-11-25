@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Susie's Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Me</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="portfolio.html">My Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <h1>My Portfolio</h1>
+                <h2>Below is a selection of coding projects I have completed.</h2>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sd-12">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h3 class="card-title">Raspberry Pi timer</h3>
+                            <h4><span class="badge text-bg-primary">Python</span><span
+                                    class="badge text-bg-primary">Raspberry Pi</span></h4>
+                            <p class="card-text">The Raspberry Pi Pico started a timer when a button was pressed
+                                and would send a signal to a secondary Raspeberry Pi Pico which used an LED and
+                                speaker to signal that the timer had finished. The first Raspberry Pi Pico was
+                                connected to a website which allowed to user to select a colour which would be
+                                used to this Raspberry Pi to signal the progressed of the timer through a LED
+                                light ring.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sd-12">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h3 class="card-title">Morse Code</h3>
+                            <h4><span class="badge text-bg-primary">Python</span><span
+                                    class="badge text-bg-primary">Raspberry Pi</span></h4>
+                            <p class="card-text">The user could enter text. The program would then display this
+                                text as morse code using the intergrated LED on the Raspberry Pi Pico.</p>
+                            <img src="Morse_Code_Project.png"  width=100% alt="A section of a code file">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sd-12">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h3 class="card-title">Plant Species Database</h3>
+                            <h4><span class="badge text-bg-primary">Java</span></h4>
+                            <p class="card-text">Using the terminal, a user was able to create a database, add
+                                new plant species to this database and find information about specific plant
+                                species they had stored.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sd-12">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h3 class="card-title">Project Nova</h3>
+                            <h4><span class="badge text-bg-primary">Game Development</span><span class="badge text-bg-primary">Java</span></h4>
+                            <p class="card-text">This a video game intended to be played by 2 players. The
+                                players would take turns clicking on squares and recieve feedback at what they
+                                found at that square. Whichever player found the most creatures before the game
+                                ended won.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sd-12">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h3 class="card-title">My first GODOT game</h3>
+                            <h4><span class="badge text-bg-primary">Game Development</span><span class="badge text-bg-primary">GODOT</span></h4>
+                            <p class="card-text">After creating a basic game using a tutorial. I created my own game, a platformer where frog enemies jump between platform trying to kill the player. Once the player reached the top there was a bigger frog who served as a boss fight.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sd-12">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h3 class="card-title">Online Azul</h3>
+                            <h4><span class="badge text-bg-primary">Game Development</span><span class="badge text-bg-primary">GODOT</span></h4>
+                            <p class="card-text">I have coded a video game version of the board game azul using GODOT. It allows for 2 to 4 players and can calculate points automatically</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sd-12">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h3 class="card-title">Text to ASCII LED display</h3>
+                            <h4><span class="badge text-bg-primary">Arduino</span><span class="badge text-bg-primary">C++</span></h4>
+                            <p class="card-text">The Arduino would take a word or phrase and convert it into extended ASCII. It would then display the extended ASCII on an 100 LED Neopixel strip with 1 being on, 0 being off and a 'space' light between each character. The on lights would also iterate slowly through the rainbow while the 'space' lights did the same in the opposite direction</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sd-12">
+                    <div class="card bg-light">
+                        <div class="card-body">
+                            <h3 class="card-title">LED Seasons</h3>
+                            <h4><span class="badge text-bg-primary">Arduino</span><span class="badge text-bg-primary">C++</span></h4>
+                            <p class="card-text">I have also used the same Arduino and Neopixel light strip to simulate who the seasons of the year affect trees. The leaves of the trees start as random shades of green, then slowly turn to oranges and red, then eventually fall (turn off) before slowly regrowing (turn on) with the leaves being green once again.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h5 style="font-family: Playwrite AT; text-align: center;">That's all the projects I've added so far but be sure to check back regularly.</h5>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
