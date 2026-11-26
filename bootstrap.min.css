@@ -5985,7 +5985,7 @@ fieldset:disabled .btn {
   background:0 0;
   filter:var(--bs-carousel-control-icon-filter);
   border:0;
-  opacity:.5;
+  opacity:.6;
   transition:opacity .15s ease
 }
 @media (prefers-reduced-motion:reduce) {
